@@ -59,7 +59,7 @@ Format de réponse :
             # If the response indicates this is not a medical question, format it properly
             if advice.get("reassurance") == "Je suis un assistant médical et je ne peux répondre qu'aux questions de santé.":
                 return {
-                    "reassurance": advice["reassurance"],
+                    "reassurance": "",
                     "specialite_identifiee": None,
                     "conseils_generaux": [],
                     "specialistes_recommandes": [],
@@ -192,7 +192,7 @@ Donne des conseils rassurants et recommande des spécialistes appropriés. Ident
         response_content = response.choices[0].message.content
         if not response_content.strip().startswith('{'):
             return {
-                "reassurance": "Je suis un assistant médical et je ne peux répondre qu'aux questions de santé.",
+                "reassurance": "",
                 "specialite_identifiee": None,
                 "conseils_generaux": [],
                 "specialistes_recommandes": [],
