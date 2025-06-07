@@ -1,0 +1,156 @@
+[
+  {
+    "timestamp": "2025-06-07T10:45:58.490822",
+    "symptoms": [
+      "douleur thoracique",
+      "essoufflement"
+    ],
+    "recommendation": {
+      "medecin_recommande": "cardiologue",
+      "raison": "Le patient présente des symptômes de douleur thoracique et d'essoufflement, qui sont des symptômes typiques de problèmes cardiaques. Un cardiologue est le spécialiste le plus approprié pour diagnostiquer et traiter ces symptômes.",
+      "urgence": "NORMAL",
+      "conseils": [
+        "Préparer les documents médicaux",
+        "Noter les symptômes et leur évolution",
+        "Préparer la liste des médicaments",
+        "Vérifier les horaires d'ouverture"
+      ],
+      "consultation_immediate": false,
+      "equipements_necessaires": [
+        "échographe",
+        "ECG",
+        "holter"
+      ],
+      "duree_estimee": 30,
+      "cout_estime": 80,
+      "alternatives": [
+        "Consulter un généraliste pour une évaluation préliminaire",
+        "Rechercher des options de consultation en ligne ou par téléphone si le budget est très limité"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-06-07T10:46:38.739447",
+    "symptoms": [
+      "éruption cutanée",
+      "démangeaisons"
+    ],
+    "recommendation": {
+      "medecin_recommande": "dermatologue",
+      "raison": "Le patient présente des symptômes d'éruption cutanée et de démangeaisons, qui sont des symptômes typiques de problèmes de peau. Le dermatologue est le spécialiste le plus approprié pour diagnostiquer et traiter ces problèmes.",
+      "urgence": "normal",
+      "conseils": [
+        "Préparer les documents médicaux",
+        "Noter les symptômes et leur évolution",
+        "Préparer la liste des médicaments",
+        "Vérifier les horaires d'ouverture",
+        "Éviter de gratter les zones affectées pour ne pas aggraver la situation"
+      ],
+      "consultation_immediate": false,
+      "equipements_necessaires": [
+        "dermatoscope",
+        "lampe de Wood",
+        "équipement laser"
+      ],
+      "duree_estimee": 25,
+      "cout_estime": 55,
+      "alternatives": [
+        "Consulter un généraliste pour une évaluation préliminaire, mais cela peut ne pas être suffisant pour diagnostiquer et traiter les problèmes de peau",
+        "Rechercher des informations en ligne sur les problèmes de peau, mais cela ne remplace pas une consultation médicale professionnelle"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-06-07T11:34:41.345119",
+    "symptoms": [
+      "éruption cutanée",
+      "démangeaisons"
+    ],
+    "recommendation": {
+      "medecin_recommande": "dermatologue",
+      "raison": "Le patient présente des symptômes d'éruption cutanée et de démangeaisons, qui sont des symptômes typiques de problèmes de peau. Le dermatologue est le spécialiste le plus approprié pour diagnostiquer et traiter ces problèmes.",
+      "urgence": "normal",
+      "conseils": [
+        "Préparer les documents médicaux",
+        "Noter les symptômes et leur évolution",
+        "Préparer la liste des médicaments",
+        "Vérifier les horaires d'ouverture",
+        "Éviter de gratter les zones affectées pour ne pas aggraver la situation"
+      ],
+      "consultation_immediate": false,
+      "equipements_necessaires": [
+        "dermatoscope",
+        "lampe de Wood",
+        "équipement laser"
+      ],
+      "duree_estimee": 25,
+      "cout_estime": 55,
+      "alternatives": [
+        "Consulter un généraliste pour une évaluation préliminaire, mais cela peut ne pas être suffisant pour diagnostiquer et traiter les problèmes de peau",
+        "Rechercher des solutions en ligne ou des remèdes naturels, mais cela peut ne pas être efficace ou sûr"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-06-07T11:36:59.390989",
+    "symptoms": [
+      "éruption cutanée",
+      "démangeaisons"
+    ],
+    "recommendation": {
+      "medecin_recommande": "dermatologue",
+      "raison": "Le patient présente des symptômes d'éruption cutanée et de démangeaisons, qui sont des symptômes typiques de problèmes de peau. Le dermatologue est le spécialiste le plus approprié pour diagnostiquer et traiter ces problèmes.",
+      "urgence": "normal",
+      "conseils": [
+        "Préparer les documents médicaux",
+        "Noter les symptômes et leur évolution",
+        "Préparer la liste des médicaments",
+        "Vérifier les horaires d'ouverture",
+        "Éviter de gratter les zones affectées pour ne pas aggraver l'éruption cutanée"
+      ],
+      "consultation_immediate": false,
+      "equipements_necessaires": [
+        "dermatoscope",
+        "lampe de Wood",
+        "équipement laser"
+      ],
+      "duree_estimee": 25,
+      "cout_estime": 55,
+      "alternatives": [
+        "Consulter un généraliste pour un diagnostic préliminaire et une orientation vers un dermatologue si nécessaire",
+        "Rechercher des solutions de soins de peau en ligne ou en pharmacie, mais cela n'est pas recommandé sans consultation médicale préalable"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-06-07T11:43:04.036410",
+    "symptoms": [
+      "éruption cutanée",
+      "démangeaisons"
+    ],
+    "recommendation": {
+      "medecin_recommande": "dermatologue",
+      "raison": "Le patient présente des symptômes d'éruption cutanée et de démangeaisons, qui sont des symptômes typiques de problèmes de peau. Le dermatologue est le spécialiste le plus approprié pour diagnostiquer et traiter ces problèmes.",
+      "urgence": "normal",
+      "conseils": [
+        "Préparer les documents médicaux",
+        "Noter les symptômes et leur évolution",
+        "Préparer la liste des médicaments",
+        "Vérifier les horaires d'ouverture",
+        "Éviter de gratter les zones affectées pour ne pas aggraver la situation"
+      ],
+      "consultation_immediate": false,
+      "equipements_necessaires": [
+        "dermatoscope",
+        "lampe de Wood",
+        "équipement laser"
+      ],
+      "duree_estimee": 25,
+      "cout_estime": 55,
+      "alternatives": [
+        "Consulter un généraliste pour un diagnostic préliminaire et une orientation vers un dermatologue si nécessaire",
+        "Rechercher des solutions de soins de peau en ligne ou en pharmacie, mais avec prudence et sous réserve de consultation médicale"
+      ]
+    }
+  }
+]

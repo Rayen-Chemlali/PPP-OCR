@@ -1,0 +1,4 @@
+groq>=0.4.0
+pathlib>=1.0.1
+numpy>=1.21.0
+scikit-learn>=1.0.0 

@@ -1,0 +1,142 @@
+{
+  "specialties": {
+    "generaliste": {
+      "description": "Médecin traitant pour les soins de base et le suivi général",
+      "symptomes": [
+        "fièvre",
+        "rhume",
+        "grippe",
+        "maux de tête",
+        "fatigue générale"
+      ],
+      "urgent": false,
+      "competences": [
+        "diagnostic général",
+        "suivi de routine",
+        "vaccinations"
+      ],
+      "equipements": [
+        "stéthoscope",
+        "tensiomètre",
+        "otoscope"
+      ],
+      "duree_consultation": 20,
+      "tarif_base": 25
+    },
+    "cardiologue": {
+      "description": "Spécialiste du cœur et des vaisseaux sanguins",
+      "symptomes": [
+        "douleur thoracique",
+        "essoufflement",
+        "palpitations",
+        "hypertension"
+      ],
+      "urgent": true,
+      "competences": [
+        "échocardiographie",
+        "ECG",
+        "tests d'effort"
+      ],
+      "equipements": [
+        "échographe",
+        "ECG",
+        "holter"
+      ],
+      "duree_consultation": 30,
+      "tarif_base": 80
+    },
+    "dermatologue": {
+      "description": "Spécialiste de la peau, des cheveux et des ongles",
+      "symptomes": [
+        "éruptions cutanées",
+        "acné",
+        "allergies cutanées",
+        "chute de cheveux"
+      ],
+      "urgent": false,
+      "competences": [
+        "biopsie cutanée",
+        "dermoscopie",
+        "traitements laser"
+      ],
+      "equipements": [
+        "dermatoscope",
+        "lampe de Wood",
+        "équipement laser"
+      ],
+      "duree_consultation": 25,
+      "tarif_base": 55
+    },
+    "pediatre": {
+      "description": "Spécialiste des enfants de 0 à 18 ans",
+      "symptomes": [
+        "fièvre enfant",
+        "troubles de croissance",
+        "maladies infantiles"
+      ],
+      "urgent": true,
+      "competences": [
+        "développement de l'enfant",
+        "vaccinations pédiatriques",
+        "nutrition infantile"
+      ],
+      "equipements": [
+        "matériel pédiatrique",
+        "balance de précision",
+        "stéthoscope pédiatrique"
+      ],
+      "duree_consultation": 30,
+      "tarif_base": 32
+    },
+    "urgentiste": {
+      "description": "Médecin des urgences pour les cas graves",
+      "symptomes": [
+        "traumatismes",
+        "hémorragies",
+        "difficultés respiratoires sévères"
+      ],
+      "urgent": true,
+      "competences": [
+        "réanimation",
+        "traumatologie",
+        "urgences vitales"
+      ],
+      "equipements": [
+        "défibrillateur",
+        "respirateur",
+        "matériel de réanimation"
+      ],
+      "duree_consultation": 0,
+      "tarif_base": 0
+    }
+  },
+  "symptomes_urgences": {
+    "critiques": [
+      "douleur thoracique sévère",
+      "difficulté respiratoire aiguë",
+      "hémorragie importante",
+      "perte de conscience",
+      "traumatisme crânien"
+    ],
+    "moderes": [
+      "fièvre élevée",
+      "douleur abdominale intense",
+      "vomissements persistants",
+      "saignement modéré"
+    ]
+  },
+  "conseils_generaux": {
+    "avant_consultation": [
+      "Préparer les documents médicaux",
+      "Noter les symptômes et leur évolution",
+      "Préparer la liste des médicaments",
+      "Vérifier les horaires d'ouverture"
+    ],
+    "urgences": [
+      "Composer le 15",
+      "Ne pas manger ni boire",
+      "Rester calme",
+      "Préparer les documents importants"
+    ]
+  }
+}
