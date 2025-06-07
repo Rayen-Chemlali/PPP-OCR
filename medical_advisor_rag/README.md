@@ -123,6 +123,40 @@ GET /consultation-history
 - **RAG**: Système de récupération augmentée
 - **NLP**: Traitement du langage naturel
 
+### Techniques RAG Utilisées
+
+#### 1. Prompt Engineering Avancé
+- **Système de Prompt Structuré**: Utilisation d'un prompt système détaillé qui guide le LLM dans sa prise de décision
+- **Liste de Spécialités Contrôlée**: Intégration d'une liste exhaustive des spécialités médicales disponibles dans le prompt
+- **Format de Réponse Standardisé**: Structure JSON stricte pour assurer la cohérence des réponses
+
+#### 2. Gestion des Connaissances
+- **Base de Données Relationnelle**: Stockage structuré des informations sur les médecins et leurs spécialités
+- **Mapping Intelligent**: Conversion automatique des spécialités en format standardisé
+- **Validation des Données**: Vérification systématique des spécialités recommandées
+
+#### 3. Techniques de Récupération
+- **Recherche Contextuelle**: Utilisation du contexte de la conversation pour affiner les recommandations
+- **Filtrage Dynamique**: Adaptation des résultats en fonction des symptômes et du profil du patient
+- **Fallback Intelligent**: Système de repli pour assurer des recommandations pertinentes même en cas d'incertitude
+
+#### 4. Génération Augmentée
+- **Contexte Enrichi**: Intégration des informations de la base de données dans les réponses du LLM
+- **Validation en Temps Réel**: Vérification immédiate de la pertinence des recommandations
+- **Personnalisation Dynamique**: Adaptation des réponses en fonction du profil et des besoins du patient
+
+#### 5. Gestion des Erreurs et Robustesse
+- **Validation des Spécialités**: Vérification que les spécialités recommandées existent dans la base
+- **Gestion des Cas Limites**: Traitement approprié des questions non médicales
+- **Système de Fallback**: Mécanismes de secours pour assurer une réponse même en cas d'erreur
+
+#### 6. Construction des Requêtes
+- **Requêtes Contextuelles**: Construction dynamique des requêtes basée sur le contexte de la conversation
+- **Paramètres de Recherche**: Utilisation intelligente des paramètres (symptômes, âge, localisation, budget)
+- **Optimisation des Requêtes**: Construction efficace des requêtes SQL pour la recherche de médecins
+- **Filtrage Multi-critères**: Combinaison de plusieurs critères pour affiner les résultats
+- **Requêtes Adaptatives**: Ajustement des requêtes en fonction des résultats précédents
+
 ### Base de Données
 - **SGBD**: PostgreSQL
 - **ORM**: Prisma
