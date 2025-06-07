@@ -32,55 +32,11 @@ class DatabaseManager:
 
     def get_doctors_by_specialty(self, specialty: str, limit: int = 5) -> List[Dict[str, Any]]:
         doctors = []
-        
-        # Mapping des spécialités courantes vers les valeurs de l'enum
-        SPECIALTY_MAPPING = {
-            "médecin généraliste": "generaliste",
-            "médecin generaliste": "generaliste",
-            "généraliste": "generaliste",
-            "generaliste": "generaliste",
-            "cardio": "cardiologue",
-            "dermato": "dermatologue",
-            "gynéco": "gynecologue",
-            "gyneco": "gynecologue",
-            "pédiatre": "pediatre",
-            "pediatre": "pediatre",
-            "orthopédiste": "orthopediste",
-            "orthopediste": "orthopediste",
-            "psychiatre": "psychiatre",
-            "ophtalmo": "ophtalmologue",
-            "orl": "otorhinolaryngologue",
-            "neuro": "neurologue",
-            "urologue": "urologue",
-            "endo": "endocrinologue",
-            "gastro": "gastroenterologue",
-            "rhumato": "rheumatologue",
-            "anesthésiste": "anesthesiste",
-            "radio": "radiologue",
-            "onco": "oncologue",
-            "chirurgien": "chirurgien",
-            "nutrition": "nutritionniste",
-            "physio": "physiotherapeute",
-            "psycho": "psychologue",
-            "sexo": "sexologue",
-            "gériatre": "geriatre",
-            "allergo": "allergologue",
-            "hématologue": "hematologue",
-            "néphrologue": "nephrologue",
-            "pneumo": "pneumologue",
-            "dentiste": "dentiste",
-            "ortho": "orthodontiste"
-        }
 
         # Format the specialty to match the enum format
         def format_specialty(s: str) -> str:
             # Convertir en minuscules et enlever les accents
-            s = s.lower().strip()
-            # Vérifier si la spécialité est dans le mapping
-            if s in SPECIALTY_MAPPING:
-                return SPECIALTY_MAPPING[s]
-            # Si non trouvée, retourner "autre"
-            return "autre"
+            return s.lower().strip()
 
         formatted_specialty = format_specialty(specialty)
         print(f"🔍 Recherche des médecins pour la spécialité: {formatted_specialty}")
