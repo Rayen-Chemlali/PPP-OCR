@@ -6,6 +6,7 @@ import tempfile
 from pathlib import Path
 from typing import Dict, Any
 import uvicorn
+from starlette.middleware.cors import CORSMiddleware
 
 # Import de votre classe MedicalOCR
 from OCR.groq_client import MedicalOCR
@@ -16,7 +17,13 @@ app = FastAPI(
     description="API pour l'extraction OCR de documents médicaux (ordonnances et analyses de laboratoire)",
     version="1.0.0"
 )
-
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Autorise toutes les origines
+    allow_credentials=False,  # Doit être False si allow_origins=["*"]
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 # Initialisation du client OCR
 ocr = MedicalOCR(
     api_key="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",

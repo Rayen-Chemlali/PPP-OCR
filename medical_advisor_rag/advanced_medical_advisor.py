@@ -17,7 +17,7 @@ class AdvancedMedicalAdvisor:
         
     def _create_system_prompt(self) -> str:
         specialites = [
-            "cardiologue", "dermatologue", "pneumologue", "généraliste", "pédiatre",
+            "cardiologue", "dermatologue", "pneumologue", "generaliste", "pediatre",
             "psychiatre", "ophtalmologue", "orthopediste", "gynecologue", "urologue",
             "endocrinologue", "gastroenterologue", "rheumatologue", "anesthesiste",
             "radiologue", "oncologue", "chirurgien", "nutritionniste", "physiotherapeute",

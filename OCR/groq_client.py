@@ -133,7 +133,7 @@ RÉPONSE REQUISE: JSON strict avec cette structure exacte:
 {
     "nom_docteur": "[Nom complet du médecin avec titre Dr.]",
     "specialite": "[Spécialité médicale si mentionnée, sinon 'Non spécifié']",
-    "date": "[Date de l'ordonnance au format JJ/MM/AAAA]",
+    "date": "[Date de l'ordonnance au format ISO 8601, exactement comme ceci : \"YYYY-MM-DDT00:00:00.000Z\"]",
     "institut": "[Nom de la clinique/hôpital/cabinet, sinon 'Non spécifié']",
     "contenu": "[Ce qui est  ecrit dans l'ordonnance par le docteur par sa main hors la date et la signature]",
 }
